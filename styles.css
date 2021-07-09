@@ -1,0 +1,106 @@
+/*Font import*/
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+
+body {
+    background-color: #19A1AD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-position: -25% 125%, 125% -100%;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.container {
+    background-color: white;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 350px;
+    height: 380px;
+    /* margin: auto; */
+    margin-top: 200px;
+}
+
+#upper-section {
+    background-image: url(/images/bg-pattern-card.svg);
+    width: 100%;
+    height: 140px;
+}
+
+/* #lower-section {
+    display: flex;
+    justify-content: center;
+} */
+
+#image {
+    display: block;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.content {
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#name {
+    /* font-family: 'Kumbh Sans', sans-serif; */
+    font-weight: 700;
+    font-size: 18px;
+    color: #313340;
+}
+
+#age {
+    /* font-family: 'Kumbh Sans', sans-serif; */
+    font-weight: 500;
+    font-size: 20px;
+    color: hsl(0, 0%, 59%);
+}
+
+#country {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.divider {
+    border-top: 1px solid hsl(0, 0%, 59%);
+    width: 90%;
+    opacity: 0.5;
+    margin-top: 25px;
+}
+
+.grid {
+    font-family: 'Kumbh Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    width: 90%;
+}
+
+.number {
+    font-size: 20px;
+    font-weight: 700;
+    color: #313340;
+    margin: 0;
+}
+
+.description {
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+    margin: 7px 0;
+}
+
+.wrapper {
+    margin-top: 20px;
+}
